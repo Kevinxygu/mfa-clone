@@ -3,7 +3,7 @@
 import Image from 'next/image'
 import * as Styled from './success.styles'
 
-// Successful stage for getting past 2FA
+// Successful stage for getting past MFA
 const Success = () => {
     return (
         <Styled.SuccessContainer>

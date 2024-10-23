@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 import {colours} from '../../constants/theme/theme';
 
+// Styles for login
+
 export const Container = styled.div`
 margin: 0;
 padding: 0;

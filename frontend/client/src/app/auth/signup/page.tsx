@@ -4,7 +4,9 @@ import Image from "next/image";
 import * as Styled from "./signup.styles"
 import { useState } from "react";
 
-// Home page (Landing page)
+// Sign up page, simply use name and email address
+// TODO: Needs to be extended to have more functionality, to make sure the right person has the right access.
+// I know a lot of MFA uses QR codes. Explore and learn this.
 const Signup = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');

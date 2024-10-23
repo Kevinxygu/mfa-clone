@@ -4,7 +4,7 @@ import Image from "next/image";
 import * as Styled from "./login.styles"
 import { useState } from "react";
 
-// Home page (Landing page)
+// Log in page for returning users.
 const Signup = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');

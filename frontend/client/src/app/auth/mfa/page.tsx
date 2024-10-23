@@ -3,7 +3,7 @@
 import * as Styled from "./mfa.styles";
 import { useState } from "react";
 
-// 2FA input page
+// MFA input page
 const Mfa = () => {
     const [code, setCode] = useState('');
 

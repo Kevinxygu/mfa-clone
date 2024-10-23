@@ -2,6 +2,8 @@ import styled from 'styled-components';
 import {colours} from './constants/theme/theme';
 import Link from "next/link";
 
+// Styles for main page
+
 export const Container = styled.div`
 margin: 0;
 padding: 0;
