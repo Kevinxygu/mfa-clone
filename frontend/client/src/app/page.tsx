@@ -1,6 +1,5 @@
 'use client';
 
-import Image from "next/image";
 import * as Styled from "./index.styles"
 
 // Home page (Landing page)
