@@ -4,7 +4,7 @@ import Link from "next/link";
 
 // Styles for main page
 
-export const Container = styled.div`
+export const IndexContainer = styled.div`
 margin: 0;
 padding: 0;
 width: 100%;

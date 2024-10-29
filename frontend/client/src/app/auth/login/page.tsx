@@ -3,15 +3,17 @@
 import Image from "next/image";
 import * as Styled from "./login.styles"
 import { useState } from "react";
+import Link from "next/link";
 
 // Log in page for returning users.
-const Signup = () => {
+const Login = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
   
     return (
-    <Styled.Container>
+    <Styled.LoginContainer>
       <Styled.Form>
+        <Styled.LoginBackButton><Styled.LoginBackLink href='/'>Back</Styled.LoginBackLink></Styled.LoginBackButton>
         <Styled.Label htmlFor="email">Email</Styled.Label>
         <Styled.Input 
           type="email" 
@@ -30,8 +32,8 @@ const Signup = () => {
         />
         <Styled.SignupButton>Login</Styled.SignupButton>
       </Styled.Form>
-    </Styled.Container>
+    </Styled.LoginContainer>
   );
 }
 
-export default Signup;
+export default Login;

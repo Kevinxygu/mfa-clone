@@ -12,8 +12,9 @@ const Signup = () => {
     const [password, setPassword] = useState('');
   
     return (
-    <Styled.Container>
+    <Styled.SignupContainer>
       <Styled.Form>
+      <Styled.SignupBackButton><Styled.SignupBackLink href='/'>Back</Styled.SignupBackLink></Styled.SignupBackButton>
         <Styled.Label htmlFor="email">Email</Styled.Label>
         <Styled.Input 
           type="email" 
@@ -32,7 +33,7 @@ const Signup = () => {
         />
         <Styled.SignupButton>Sign up</Styled.SignupButton>
       </Styled.Form>
-    </Styled.Container>
+    </Styled.SignupContainer>
   );
 }
 

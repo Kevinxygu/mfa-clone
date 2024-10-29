@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 import {colours} from '../../constants/theme/theme';
+import Link from 'next/link';
 
 // Styles for login
 
-export const Container = styled.div`
+export const LoginContainer = styled.div`
 margin: 0;
 padding: 0;
 width: 100%;
@@ -65,3 +66,25 @@ align-self: flex-end;
     color: ${colours.black};
 }
 `
+
+export const LoginBackButton = styled.button`
+color: ${colours.grey};
+font-size: 20px;
+cursor: pointer;
+background-color: ${colours.black};
+border: none;
+margin-bottom: 50px;
+font-family: 'IBM Plex Mono', monospace;
+transition: 0.3s ease;
+padding: 0px;
+width: 10%;
+text-align: left;
+
+&:hover {
+    color: ${colours.offWhite};
+}
+`
+
+export const LoginBackLink = styled(Link)`
+text-decoration: none;
+width: 5%`
