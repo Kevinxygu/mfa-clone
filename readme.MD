@@ -4,11 +4,8 @@ This project replicates a Two Factor Authentication (2FA) app like [Duo](https:/
 
 ## :book: Learnings
 
-I'm curious how products, apps and services I use every day are engineered. I figured a 2FA app clone helps explore multiple skills at once like mobile development, APIs, server-side development, cryptography and time-based one-time passwords (TOTPs).
+I'm curious how products, apps and services I use every day are engineered. I figured a 2FA app clone helps explore multiple skills at once like mobile development, APIs, server-side development, cryptography, auth-based APIs (e.g. I saw [1Password Passage](https://passage.1password.com/) used at [nwHacks](https://nwhacks.io/) before and thought it was really cool), and time-based one-time passwords (TOTPs).
 
 | Concept | Learnings |
 |:---|:---|
 | TBH | Will write soon!|
-
-## :city_sunrise: Future Features + Considerations
-[Fall 2024] Actually start building it LOL
